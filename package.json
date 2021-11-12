@@ -47,6 +47,8 @@
     "cropperjs": "^1.5.12",
     "crypto-js": "^4.1.1",
     "echarts": "^5.2.2",
+    "esbuild": "^0.13.13",
+    "esbuild-darwin-arm64": "^0.13.13",
     "intro.js": "^4.3.0",
     "lodash-es": "^4.17.21",
     "mockjs": "^1.1.0",
