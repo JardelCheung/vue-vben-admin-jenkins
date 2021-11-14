@@ -4,7 +4,7 @@ WORKDIR /srv/app
 
 COPY . .
 
-RUN npm install --unsafe-perm --registry http://192.168.0.102:8081/repository/npm-proxy/ \
+RUN npm install --unsafe-perm --registry https://registry.npmmirror.com \
     && npm run build
 
 FROM nginx:1.18.0-alpine
