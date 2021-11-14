@@ -4,7 +4,7 @@ WORKDIR /srv/app
 
 COPY . .
 
-RUN npm install --unsafe-perm --registry https://registry.npm.taobao.org \
+RUN npm install --unsafe-perm \
     && npm run build
 
 FROM nginx:1.18.0-alpine
